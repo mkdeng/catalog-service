@@ -6,7 +6,7 @@ env:
   IMAGE_NAME: mkdeng/catalog-service
   VERSION: ${{ github.sha }}
 
-jobs: 
+jobs:
   build:
     name: Build and Test
     runs-on: ubuntu-22.04
